@@ -1,0 +1,38 @@
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+#m1{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: 
+    #50504b ;
+}
+#boxes{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-left: 1%;
+    padding-right: 1%;
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+#boxes>div{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 4px;
+}
+.boximg>img{
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+
+}
+.boxtext>h2{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
